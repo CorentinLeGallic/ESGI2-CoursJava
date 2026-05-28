@@ -133,6 +133,23 @@
 <p>5 x 4 = 20</p>
 <p>5 x 5 = 25</p>
 
+<p>Résultat :</p>
+<%for (int i = 0; i < 10; i++) { %>
+    <% String line = cpt + " x " + (i + 1) + " = " + (cpt * (i + 1)) %>
+    <%= line %>
+    </br>
+<% } %>
+</br>
+<%for (int i = cpt - 1; i >= 0; i--) { %>
+    <%for (int j = 0; j < (cpt - i - 1); j++) { %>
+        <%= "&nbsp&nbsp" %>
+    <% } %>
+    <%for (int j = 0; j <= i; j++) { %>
+        <%= "*" %>
+    <% } %>
+    </br>
+<% } %>
+
 <% } %>
 <p><a href="index.html">Retour au sommaire</a></p>
 </body>
