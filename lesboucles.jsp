@@ -59,7 +59,7 @@
 
 <p>Résultat :</p>
 <%for (int i = 0; i < cpt; i++) { %>
-    <%for (int j = cpt; j >= 0; j--) { %>
+    <%for (int j = 0; j <= cpt-i 0; j++) { %>
         <%= "*" %>
     <% } %>
     </br>
