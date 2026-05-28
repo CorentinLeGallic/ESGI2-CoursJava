@@ -36,6 +36,7 @@
     <% for (int j = 0; j <= cpt; j++) { %>
         <%= "*" %>
     <% } %>
+</br>
 <% } %>
 
 <h2>Exercice 2 : Triangle rectangle gauche</h2>
