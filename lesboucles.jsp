@@ -88,7 +88,7 @@
 
 <p>Résultat :</p>
 <%for (int i = 0; i < cpt; i++) { %>
-    <%for (int j = 0; j < cpt - i + (i % 2 == 0 ? 0 : -1); j++) { %>
+    <%for (int j = 0; j < cpt - i; j++) { %>
         <%= "&nbsp" %>
     <% } %>
     <%for (int j = 0; j <= i; j++) { %>
