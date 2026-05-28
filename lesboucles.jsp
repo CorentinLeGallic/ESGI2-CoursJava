@@ -135,7 +135,7 @@
 
 <p>Résultat :</p>
 <% for (int i = 0; i < 10; i++) { %>
-    <% String line = cpt + " x " + (i + 1) + " = " + (cpt * (i + 1)) %>
+    <% String line = cpt + " x " + (i + 1) + " = " + (cpt * (i + 1)); %>
     <%= line %>
     </br>
 <% } %>
